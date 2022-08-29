@@ -1,10 +1,24 @@
 {
   "name": "whistle.try",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provide fallback functionality for local rules of whistle",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
   "scripts": {
     "lint": "eslint --ignore-path .gitignore --ext .js,.ts --fix ."
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CyanSalt/whistle.try.git"
+  },
+  "author": "CyanSalt",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CyanSalt/whistle.try/issues"
+  },
+  "homepage": "https://github.com/CyanSalt/whistle.try#readme",
   "devDependencies": {
     "@cyansalt/eslint-config-preset": "^1.9.0",
     "@cyansalt/tsconfig": "^2.1.1",
