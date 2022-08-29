@@ -37,3 +37,5 @@ When using interpolation, you may need to adjust the position of the interpolati
 ## How it works
 
 This plugin will check the service status through HEAD requests before proxying real requests. Therefore, **it only works for HTTP/HTTPS requests**.
+
+Avoid using this plugin rule for non-local proxies as it may introduce a large overhead.
