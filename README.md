@@ -1,5 +1,7 @@
 # whistle.try
 
+[![npm](https://img.shields.io/npm/v/whistle.try.svg)](https://www.npmjs.com/package/whistle.try)
+
 Provide fallback functionality for local rules of [whistle](https://github.com/avwo/whistle)
 
 ## Installation
