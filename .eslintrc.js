@@ -3,7 +3,10 @@ module.exports = {
   extends: [
     '@cyansalt/preset',
   ],
-  ignorePatterns: [
-    '.eslintrc.js',
-  ],
+  parserOptions: {
+    project: './tsconfig.tools.json',
+  },
+  rules: {
+    'unicorn/prefer-node-protocol': 'off',
+  },
 }
