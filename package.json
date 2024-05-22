@@ -7,7 +7,7 @@
     "lib": "lib"
   },
   "scripts": {
-    "lint": "eslint --ignore-path .gitignore --ext .js,.ts --fix ."
+    "lint": "eslint --fix './**/*.{js,mjs}'"
   },
   "repository": {
     "type": "git",
@@ -20,8 +20,7 @@
   },
   "homepage": "https://github.com/CyanSalt/whistle.try#readme",
   "devDependencies": {
-    "@cyansalt/eslint-config-preset": "^1.17.0",
-    "@cyansalt/tsconfig": "^2.2.1",
-    "typescript": "^5.3.3"
+    "@cyansalt/eslint-config": "^4.0.1",
+    "eslint": "^9.3.0"
   }
 }
